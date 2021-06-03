@@ -1,0 +1,25 @@
+@import "../variable.scss";
+@import "../components/style.scss";
+@import "../pages/style.scss";
+
+.main_page .page {
+  width: 100%;
+}
+
+.page-enter,
+.page-appear {
+  opacity: 0;
+}
+.page-enter-active,
+.page-appear-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+  transition-delay: 200ms;
+}
+.page-exit {
+  opacity: 1;
+}
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}

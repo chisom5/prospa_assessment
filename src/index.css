@@ -1,0 +1,31 @@
+@import "../node_modules/antd/dist/antd.min.css";
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #ffffff;
+}
+
+p {
+  margin: 0px;
+}
+
+.ant-dropdown {
+  min-width: 200px !important;
+}
+
+.slide-enter {
+  opacity: 0;
+}
+.slide-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+  transition-delay: 200ms;
+}
+.slide-exit {
+  opacity: 1;
+}
+.slide-exit-active {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}
