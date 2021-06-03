@@ -26,7 +26,7 @@ class SignInPage extends Component {
           <Sidebar />
 
           <section className="main__content">
-            <header className="header">
+            <header className="header mb__header">
               <div></div>
               <div>
                 <p>
